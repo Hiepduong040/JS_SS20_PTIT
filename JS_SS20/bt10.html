@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let a = 6;
+      let result = ++a + a + a++ + ++a + a;
+    </script>
+  </body>
+</html>
+<!-- comment:cả 2 đều tăng giá trị a lên 1 đơn vị nhưng
+1-++a: trước khi sử dụng giá trị mới của a, có thể hiểu là 1 + a .
+2-a++: nó sử dụng giá trị cũ của a trong biểu thức và sau đó mới tăng giá trị của a, hiểu là a + 1.
